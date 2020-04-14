@@ -14,7 +14,7 @@ Node.js; Express; Reuest; VSCode; Git; GitHub
 
 `$ npm init`
 
-## processes in the code include
+## Processes in the code include
 Creating a Server to Accept Requests; Defining the Routes; Adding Controller Logic
 
 ## Making the External Call
@@ -30,7 +30,7 @@ The call to a third-party API. We'll use the distance API provided by ZipCodeAPI
 
 `http://localhost:3000/distance/84010/97229`
 
-result should be as following if the API key is not expired.
-{"distance":638.174}
+The result should be as following if the API key is not expired.
+`{"distance":638.174}`
 
 ## Credited by Cloud 66
