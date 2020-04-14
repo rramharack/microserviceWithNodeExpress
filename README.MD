@@ -31,6 +31,7 @@ The call to a third-party API. We'll use the distance API provided by ZipCodeAPI
 `http://localhost:3000/distance/84010/97229`
 
 The result should be as following if the API key is not expired.
+
 `{"distance":638.174}`
 
 ## Credited by Cloud 66
