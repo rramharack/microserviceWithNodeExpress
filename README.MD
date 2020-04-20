@@ -21,20 +21,20 @@ Creating a Server to Accept Requests; Defining the Routes; Adding Controller Log
 The call to a third-party API. We'll use the distance API provided by ZipCodeAPI.com. You need an API key to use this, and it is free if you register. You can also use the key from this example if you want to test your service in error condition because this key frequently expires during the day.
 
 ## Execution
-`$ npm install`
+npm install
 
-`$ npm start` 
+npm start 
 
 ## Live API
 https://www.zipcodeapi.com/API
 
 ## Open your browser to view
-`http://localhost:3000/about`
+http://localhost:3000/about
 
-`http://localhost:3000/distance/84010/97229`
+http://localhost:3000/distance/11003/10017
 
-The result should be as following if the API key is not expired.
+The result should be as follows if the API key is not expired, if expired, re-created a new API key via the link above
+{"name":"microservicewithnodeexpress","version":"1.0.0"}
 
-`{"distance":638.174}`
+{"distance":14.397}
 
-## Credited by Cloud 66
