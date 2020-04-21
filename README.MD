@@ -21,9 +21,12 @@ Creating a Server to Accept Requests; Defining the Routes; Adding Controller Log
 The call to a third-party API. We'll use the distance API provided by ZipCodeAPI.com. You need an API key to use this, and it is free if you register. You can also use the key from this example if you want to test your service in error condition because this key frequently expires during the day.
 
 ## Execution
+npm install -g nodemon
+
 npm install
 
-npm start 
+npm start
+
 
 ## Live API
 https://www.zipcodeapi.com/API
